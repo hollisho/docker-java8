@@ -4,7 +4,7 @@ MAINTAINER Hollis Ho "he_wenzhi@126.com"
 
 WORKDIR /usr/local/src
 
-COPY src/jdk-8u231-linux-x64.tar.gz ./jdk-8u231-linux-x64.tar.gz
+ADD https://github.com/hollisho/docker-java8/releases/download/1.0.0/jdk-8u231-linux-x64.tar.gz .
 
 RUN tar -zxvf jdk-8u231-linux-x64.tar.gz
 
